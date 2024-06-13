@@ -1,0 +1,55 @@
+
+
+.img-container {
+  height: 100%;
+  display: flex;
+  width: ;
+  flex-direction: column;
+  /* justify-content: center; */
+  border: 4px solid white;
+}
+
+
+
+/* Text styling */
+.text-center {
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+}
+/* next */
+
+/* .menu start */
+.menu {
+  display: flex;
+  height: 50vh;
+  gap: 10px;
+
+  /* padding: 4px; */
+  /* padding-top: 1rem; */
+  /* padding-bottom: 1rem; */
+  background-color: ;
+  /* border: 2px solid firebrick; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+}
+
+.menu > * {
+  /* display: flex;
+  height: 100%;
+  width: 100%; */
+  /* align-items: center; */
+  border: 0.1px solid goldenrod;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (orientation: portrait) {
+  .menu {
+    height: 30vh;
+  }
+}
